@@ -1,0 +1,50 @@
+div[id="points"],button {
+    margin-left: 46.5%;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #240802;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3462eb;
+}
+
+span:first-of-type {
+    font-weight: bolder;
+    color: tomato;
+}
+
+#gameScore {
+    color: #6234eb;
+    font-weight: bold;
+}
+
+button {
+    color: greenyellow;
+    background-color: #240802;
+}
+
+.grid-container {
+    margin: 20px auto;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+}
+
+.grid-item {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #7b7d8f;
+    border: 1px solid black;
+    cursor: pointer;
+}
